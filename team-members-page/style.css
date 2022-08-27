@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.whowe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.header {
+    width: 40%;
+}
+
+.container img {
+    margin: 5rem;
+    width: 180px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(173, 171, 171);
+}
+
+.container {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.img-2,
+.img-5 {
+    margin-top: 2rem;
+}
+
+.container:nth-child(even) {
+    margin: 2rem;
+}
